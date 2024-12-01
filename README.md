@@ -38,8 +38,8 @@ Para rodar o projeto localmente, você precisa de:
 ## Publicação
 
 O projeto está publicado na Vercel e pode ser acessado pelo link abaixo:  
-[Link para a aplicação na Vercel](((https://formulario-de-cadastro-simples.vercel.app/))
-(https://formulario-de-cadastro-simples.vercel.app/))
+[Link para a aplicação na Vercel]((https://formulario-de-cadastro-simples.vercel.app/))
+(https://formulario-de-cadastro-simples.vercel.app/)
 
 ## Como Executar Localmente
 
