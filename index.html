@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Minha Agenda</h1></header>
+
+    <main>
+      <!-- sessao de cadastro -->
+      <section id="S_form">
+        <div id="d_titulo"><h4>Preencha os campos</h4></div>
+        <div id="d_form">
+          <form action="" method="get">
+            <label>Nome:</label>
+            <input
+              type="text"
+              placeholder=""
+              required=""
+              name="f_nome"
+              id="f_nome"
+            />
+            <label>Telefone:</label>
+            <input
+              type="tel"
+              placeholder=""
+              required=""
+              name="f_tel"
+              id="f_tel"
+            />
+            <button type="button" id="btn_form">Cadastrar</button>
+          </form>
+        </div>
+        <div id="d_rodape">
+          <p id="p_back"></p>
+        </div>
+      </section>
+
+      <!-- sessao da tabela -->
+
+      <section id="s_tabela">
+        <table>
+          <thead>
+            <tr class="t_base">
+              <th>Nome:</th>
+              <th>Telefone</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+          <tfoot class="t_base"></tfoot>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      Tela de cadastro de dados simples feito pelo aluno Wanderson Brito Santos
+      para o curso de FullStack da instituição EBAC.
+    </footer>
+  </body>
+  <script src="javascript.js"></script>
+</html>
