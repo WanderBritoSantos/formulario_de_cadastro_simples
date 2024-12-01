@@ -46,8 +46,7 @@ O projeto está publicado na Vercel e pode ser acessado pelo link abaixo:
 1. Clone este repositório:
 
    ```bash
-   git clone https://github.com/seuusuario/seuprojeto.git
-
+git clone WanderBritoSantos/formulario_de_cadastro_simples
    ```
 
 2. Acesse o diretório do projeto:
